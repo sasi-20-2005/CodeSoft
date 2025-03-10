@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        #header{
+            text-align: center;
+            font-family:'poppins',sans-serif;
+            color:white;
+            animation:fadeIn 1s ease-in;
+            background-color: rgb(48, 158, 202);
+            padding: 50px;
+        }
+        #about{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            background:rgb(182, 230, 249);
+            padding: 30px;
+            color:rgb(19, 18, 114);
+        }
+        #header li{
+            color:white;
+        }
+        #header ul{
+            text-align: center;
+            display:inline-flex;
+            color: white;
+            gap: 20px;
+        }
+        #header ul,li:hover{
+            color:rgb(61, 148, 183);
+        }
+        @keyframes fadeIn{
+            from{opacity:0;}
+            to{opacity:1;}
+        }
+        #skills h1{
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 12px 25px;
+            color:rgb(19, 18, 114);
+        }
+
+        #skills .skill-container ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 0;
+            list-style: none;
+        }
+
+        #skills .skill-container li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 25px;
+            border-radius: 2px;
+            border: 1px solid black;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            background-color:white;
+            margin: 10px; 
+        }
+
+        #project{
+            text-align: center;
+            box-sizing: 20px;
+            justify-content: center;
+            flex-wrap:wrap;
+            gap: 20px;
+            padding: 0;
+            background-color: rgb(196, 233, 248);
+            color:rgb(19, 18, 114);
+        }
+        #project .project-container{
+            border-radius: 2px;
+            border: 25px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            border-color: black;
+            box-shadow: grey;
+            justify-content: center;
+            display: inline-table;
+            background-color: white;;
+            width:300px;
+            padding: 20px;
+            height: 300px;
+        }
+        #skills{
+            text-align: center;
+            background-color: rgb(196, 233, 248);
+        }
+        #contact{
+            text-align: center;
+            background-color: rgb(48, 158, 202);
+            color:white;
+        }
+        #contact h4{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>Sasi.V</h1>
+        <h2>Web Developer | Designer | Programmer</h2>
+        <div id="list">
+        <ul>
+            <li><a href="#header">Home  |</a></li>
+            <li><a href="#about">About  |</a></li>
+            <li><a href="#skills">Skills  |</a></li>
+            <li><a href="#contact">Contact  |</a></li>
+        </ul>
+        </div>
+    </header>
+    </header>
+    <section id="about">
+        <h1>About</h1>
+        <p>Hi, I'm Sasi, a passionate and dedicated web developer with a strong foundation in HTML, CSS, JavaScript, and backend development classic ASP. Currently pursuing my second year of BE in Computer Science at IFET College Of Engineering, I am constantly learning and expanding my skills in web development. I have a keen interest in building interactive and user-friendly web applications, and I enjoy solving complex coding challenges. </p>   
+    </section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="skill-container">
+            <ul>
+                <li>HTML</li>
+                <br>
+                <li>CSS</li>
+                <br>
+                <li>JavaScript</li>
+                <br> 
+                <li>Python</li>
+                <br>
+                <li>C</li>
+                <br>
+                <li>SQL</li>
+            </ul>
+         </div>
+    </section>
+    <section id="project">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <h2>Pet Shop Management System</h2>
+            <h3>This project is a web-based system for managing a pet shop. It allows customers to browse and buy pets, accessories, and pet essentials. Key features include user login and search functionality. The project showcases my skills in web development.</h3>
+        </div>
+        <div class="project-container">
+            <h2>Food Waste Management System</h2>
+            <h3>This project helps reduce food waste by collecting excess food from hotels and notifying nearby NGOs. The system uses sensors to detect leftover food and a GSM module to send alert messages to organizations that can distribute the food to those in need. It ensures minimizes wastage.</h3>
+        </div>
+        <div class="project-container">
+            <h2>Beauty Parlor Website</h2>
+            <h3>This project is a fully responsive website for a beauty parlor, designed to enhance online visibility and improve customer engagement. Users can explore services, book appointments, and leave reviews.
+            </h3>
+        </div>
+        <br>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email:sasiharini43@gmail.com</p>
+        <p>Phone:6382104128</p>
+        <p><a href="www.linkedin.com/in/sasi-v-279864312">LinkedIn</a></p>
+        <h4>&copy; 2025 portfolio.All rights reserved</h4>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
